@@ -1,6 +1,6 @@
-const express = require("express");
-const graphqlHttp = require("express-graphql").graphqlHTTP;
-const schema = require("./schema");
+import express from "express";
+import { graphqlHTTP } from "express-graphql";
+import { RootQuery, schema } from "./schema";
 const app = express();
 const cors = require("cors");
 
@@ -13,7 +13,7 @@ app.use(cors({ origin: "http://localhost:8000", optionsSuccessStatus: 200 }));
 
 app.use(
   "/graphql",
-  graphqlHttp({ schema, rootValue: schema.Query, graphiql: true })
+  graphqlHTTP({ schema, rootValue: RootQuery, graphiql: true })
 );
 
 app.listen(4000, () => {

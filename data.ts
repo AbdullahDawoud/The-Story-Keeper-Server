@@ -1,4 +1,4 @@
-const books = [
+export const books = [
   {
     id: 1,
     name: "Revenge",
@@ -56,12 +56,10 @@ const books = [
     authorId: 1,
   },
 ];
-exports.books = books;
 
-const authors = [
+export const authors = [
   { id: 3, name: "Ali Maffucci", age: 45 },
   { id: 1, name: "Emily X. R. Pan", age: 25 },
   { id: 2, name: "René Redzepi", age: 30 },
   { id: 4, name: "Colleen Hoover", age: 21 },
 ];
-exports.authors = authors;
