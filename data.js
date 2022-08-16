@@ -5,7 +5,7 @@ const books = [
     genre: "Spanish",
     posterUrl:
       "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7887/9781788705035.jpg",
-    autherId: 1,
+    authorId: 1,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const books = [
     genre: "Spanish",
     posterUrl:
       "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4711/9781471156267.jpg",
-    autherId: 2,
+    authorId: 2,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const books = [
     genre: "Food and Drink",
     posterUrl:
       "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3494/9780349434285.jpg",
-    autherId: 3,
+    authorId: 3,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const books = [
     genre: "Spanish",
     posterUrl:
       "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4087/9781408726600.jpg",
-    autherId: 4,
+    authorId: 4,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const books = [
     genre: "Food and Drink",
     posterUrl:
       "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4711/9781471136726.jpg",
-    autherId: 3,
+    authorId: 3,
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const books = [
     genre: "Food and Drink",
     posterUrl:
       "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1987/9780198788607.jpg",
-    autherId: 1,
+    authorId: 1,
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const books = [
     genre: "Food and Drink",
     posterUrl:
       "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/9753/9781975320768.jpg",
-    autherId: 1,
+    authorId: 1,
   },
 ];
 exports.books = books;
